@@ -21,6 +21,7 @@
 		AEAB0CF5210F607100F83569 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = AEAB0CF4210F607000F83569 /* pokemon.csv */; };
 		AEAB0CF8210F82E100F83569 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAB0CF7210F82E100F83569 /* Pokemon.swift */; };
 		AEAB0CFB2110D5B400F83569 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAB0CFA2110D5B400F83569 /* PokeCell.swift */; };
+		AEC5A1702115F02D00509F78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5A16F2115F02D00509F78 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		AEAB0CF4210F607000F83569 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		AEAB0CF7210F82E100F83569 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		AEAB0CFA2110D5B400F83569 /* PokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		AEC5A16F2115F02D00509F78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C9E1D77AD7B4B8841543AD00 /* Pods-pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex/Pods-pokedex.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				AE1750C721143DFC00A134E8 /* csv.swift */,
+				AEC5A16F2115F02D00509F78 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				AEAB0CE5210F5E0800F83569 /* ViewController.swift in Sources */,
 				AEAB0CE3210F5E0800F83569 /* AppDelegate.swift in Sources */,
 				AE1750D221147EF300A134E8 /* PokemobDetailVC.swift in Sources */,
+				AEC5A1702115F02D00509F78 /* Constants.swift in Sources */,
 				AEAB0CF8210F82E100F83569 /* Pokemon.swift in Sources */,
 				AE1750C821143DFC00A134E8 /* csv.swift in Sources */,
 			);
@@ -437,7 +441,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3HSH3HTMU;
 				INFOPLIST_FILE = pokedex/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arazsinjary.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -453,7 +460,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3HSH3HTMU;
 				INFOPLIST_FILE = pokedex/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arazsinjary.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
